@@ -2,6 +2,7 @@ package main
 
 import (
 	"daniel-moya/data-structures/queue"
+	"daniel-moya/data-structures/stack"
 	"daniel-moya/data-structures/trees"
 )
 
@@ -13,4 +14,8 @@ func main() {
 
 	queue := queue.GetSampleQueue()
 	queue.PrintQueue()
+
+	stack := stack.GetSampleStack()
+	stack.PrintStack()
+
 }
