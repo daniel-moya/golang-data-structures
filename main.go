@@ -1,6 +1,7 @@
 package main
 
 import (
+	"daniel-moya/data-structures/list"
 	"daniel-moya/data-structures/queue"
 	"daniel-moya/data-structures/stack"
 	"daniel-moya/data-structures/trees"
@@ -17,5 +18,8 @@ func main() {
 
 	stack := stack.GetSampleStack()
 	stack.PrintStack()
+
+	list := list.GetSampleLinkedList()
+	list.Print()
 
 }
